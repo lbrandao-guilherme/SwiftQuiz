@@ -8,7 +8,11 @@
 import UIKit
 
 class QuizViewController: UIViewController {
-
+    
+    @IBOutlet weak var timerView: UILabel!
+    @IBOutlet weak var QuestionLB: UILabel!
+    @IBOutlet var AnswerBT: [UIButton]!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -16,14 +20,8 @@ class QuizViewController: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func selectAnswer(_ sender: UIButton) {
+        
     }
-    */
-
+    
 }
