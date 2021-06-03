@@ -8,7 +8,12 @@
 import UIKit
 
 class ResultViewController: UIViewController {
-
+    
+    @IBOutlet weak var AnswerdLB: UILabel!
+    @IBOutlet weak var CorrectLB: UILabel!
+    @IBOutlet weak var WrongLB: UILabel!
+    @IBOutlet weak var ScoreLB: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -16,14 +21,8 @@ class ResultViewController: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func closeView(_ sender: UIButton) {
     }
-    */
+    
 
 }
