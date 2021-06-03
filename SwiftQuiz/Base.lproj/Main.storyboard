@@ -145,7 +145,7 @@
                         <outletCollection property="AnswerBT" destination="tCi-dk-OOI" collectionClass="NSMutableArray" id="0H5-k0-EFf"/>
                         <outletCollection property="AnswerBT" destination="Cbj-lU-48V" collectionClass="NSMutableArray" id="nwA-h5-D7n"/>
                         <outletCollection property="AnswerBT" destination="h64-fW-B9h" collectionClass="NSMutableArray" id="oqP-Zd-Nf1"/>
-                        <segue destination="8MA-4k-4Dq" kind="show" id="UK4-V2-OVf"/>
+                        <segue destination="8MA-4k-4Dq" kind="show" identifier="resultSegue" id="UK4-V2-OVf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZmE-ZC-i5B" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
