@@ -15,6 +15,8 @@
 		447955012665818F004CBB74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 447954FF2665818F004CBB74 /* LaunchScreen.storyboard */; };
 		447A10372669414500840664 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447A10362669414500840664 /* QuizViewController.swift */; };
 		447A10392669416300840664 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447A10382669416300840664 /* ResultViewController.swift */; };
+		447A103B2669459C00840664 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447A103A2669459C00840664 /* Quiz.swift */; };
+		447A103D266945C200840664 /* QuizManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447A103C266945C200840664 /* QuizManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		447955022665818F004CBB74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		447A10362669414500840664 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		447A10382669416300840664 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		447A103A2669459C00840664 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
+		447A103C266945C200840664 /* QuizManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				447954FA2665818C004CBB74 /* Main.storyboard */,
 				447A10362669414500840664 /* QuizViewController.swift */,
 				447A10382669416300840664 /* ResultViewController.swift */,
+				447A103A2669459C00840664 /* Quiz.swift */,
+				447A103C266945C200840664 /* QuizManager.swift */,
 				447954FD2665818F004CBB74 /* Assets.xcassets */,
 				447954FF2665818F004CBB74 /* LaunchScreen.storyboard */,
 				447955022665818F004CBB74 /* Info.plist */,
@@ -145,6 +151,8 @@
 			files = (
 				447A10392669416300840664 /* ResultViewController.swift in Sources */,
 				447954F92665818C004CBB74 /* ViewController.swift in Sources */,
+				447A103B2669459C00840664 /* Quiz.swift in Sources */,
+				447A103D266945C200840664 /* QuizManager.swift in Sources */,
 				447954F52665818C004CBB74 /* AppDelegate.swift in Sources */,
 				447954F72665818C004CBB74 /* SceneDelegate.swift in Sources */,
 				447A10372669414500840664 /* QuizViewController.swift in Sources */,
