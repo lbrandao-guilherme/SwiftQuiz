@@ -40,10 +40,10 @@
             </objects>
             <point key="canvasLocation" x="-329" y="-4"/>
         </scene>
-        <!--View Controller-->
+        <!--Quiz View Controller-->
         <scene sceneID="4rl-rU-MkW">
             <objects>
-                <viewController id="yCq-c2-WC6" sceneMemberID="viewController">
+                <viewController id="yCq-c2-WC6" customClass="QuizViewController" customModule="SwiftQuiz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kte-9n-9YU">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -134,10 +134,10 @@
             </objects>
             <point key="canvasLocation" x="530" y="-4"/>
         </scene>
-        <!--View Controller-->
+        <!--Result View Controller-->
         <scene sceneID="ol6-A6-jJB">
             <objects>
-                <viewController id="8MA-4k-4Dq" sceneMemberID="viewController">
+                <viewController id="8MA-4k-4Dq" customClass="ResultViewController" customModule="SwiftQuiz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Oqz-oS-cMJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
