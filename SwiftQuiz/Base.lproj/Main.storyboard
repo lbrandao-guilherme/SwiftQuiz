@@ -71,7 +71,7 @@
                                 <rect key="frame" x="0.0" y="578" width="414" height="181"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Hl-l0-MJi">
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="2Hl-l0-MJi">
                                         <rect key="frame" x="0.0" y="1" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -84,7 +84,7 @@
                                             <action selector="selectAnswer:" destination="yCq-c2-WC6" eventType="touchUpInside" id="TeL-Gi-tOu"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tCi-dk-OOI">
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="tCi-dk-OOI">
                                         <rect key="frame" x="0.0" y="46" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -97,7 +97,7 @@
                                             <action selector="selectAnswer:" destination="yCq-c2-WC6" eventType="touchUpInside" id="UDp-jX-FRf"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cbj-lU-48V">
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Cbj-lU-48V">
                                         <rect key="frame" x="0.0" y="91" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -110,7 +110,7 @@
                                             <action selector="selectAnswer:" destination="yCq-c2-WC6" eventType="touchUpInside" id="ZQV-0k-ylJ"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h64-fW-B9h">
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="h64-fW-B9h">
                                         <rect key="frame" x="0.0" y="136" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -140,7 +140,7 @@
                     <navigationItem key="navigationItem" id="m6i-LB-hH5"/>
                     <connections>
                         <outlet property="QuestionLB" destination="6H6-v2-Smj" id="ooQ-5i-Y1X"/>
-                        <outlet property="timerView" destination="UQF-8C-yoR" id="Kaf-0w-EK1"/>
+                        <outlet property="timerView" destination="0OI-Pe-R2x" id="GxX-Ac-sdv"/>
                         <outletCollection property="AnswerBT" destination="2Hl-l0-MJi" collectionClass="NSMutableArray" id="d7n-gr-e7t"/>
                         <outletCollection property="AnswerBT" destination="tCi-dk-OOI" collectionClass="NSMutableArray" id="0H5-k0-EFf"/>
                         <outletCollection property="AnswerBT" destination="Cbj-lU-48V" collectionClass="NSMutableArray" id="nwA-h5-D7n"/>
